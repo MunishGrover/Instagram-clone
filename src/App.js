@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-
+import Post from "./Post";
 function App() {
   return (
     <div className="app">
@@ -11,6 +11,7 @@ function App() {
         />
       </div>
       <h1>Hello after so many ages Im coding.</h1>
+      <Post />
     </div>
   );
 }
