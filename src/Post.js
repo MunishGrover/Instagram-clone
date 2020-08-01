@@ -6,9 +6,11 @@ function Post() {
       <h3>Username</h3>
       <img
         className="post__image"
-        src="https://images.unsplash.com/photo-1596107034444-43bcfb3a2918?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=360&q=80"
+        src="https://images.unsplash.com/photo-1596280813649-7a07bc162282?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80"
       />
-      <h4>Username: caption.</h4>
+      <h4 className="post__text">
+        <strong>Munish: </strong>I love to vlog.
+      </h4>
     </div>
   );
 }
