@@ -12,6 +12,8 @@ function App() {
       </div>
       <h1>Hello after so many ages Im coding.</h1>
       <Post />
+      <Post />
+      <Post />
     </div>
   );
 }
